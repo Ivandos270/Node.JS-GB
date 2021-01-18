@@ -1,27 +1,27 @@
 const boxen = require('boxen');
- 
-//console.log(boxen('Good', {padding: 1}));
- 
-console.log(boxen('Good',
+
+console.log(boxen('box1',
   {
     padding: 1,
     margin: 1,
     borderStyle: 'classic',
-    borderColor: 'green'
+    borderColor: 'green',
+      float: 'left'
 }));
 
-console.log(boxen('Bad',
+console.log(boxen('box2',
   {
-    padding: 2,
-    margin: 2,
+    padding: 3,
+    margin: 3,
     borderStyle: 'singleDouble',
     borderColor: 'red',
     float: 'right'
 }));
 
-console.log(boxen('Evil',
+console.log(boxen('box3',
   {
-    padding: 1,
+      padding: 2,
+      margin: 2,
     borderStyle: 'bold',
     borderColor: 'magenta',
     float: 'center'
